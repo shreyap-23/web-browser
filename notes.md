@@ -48,3 +48,18 @@ Largest Contentful Paint
 
 webp --compress the image and maintain good quality (https://squoosh.app/)  
 logos are maded by svg (freepic)
+
+> JAVASCRIPT
+
+console.log(); ---- to print  
+.name ----------dot syntax  
+["age"]---box syntax
+
+only in VAR we can re declare the value but not in LET , CONST  
+ var name=shreya  
+ var name = shre
+
+reassign of value is only allowed in var,let
+var name=shreya  
+name=shre --similar with let
+push adds val at the end of the array
