@@ -63,3 +63,50 @@ reassign of value is only allowed in var,let
 var name=shreya  
 name=shre --similar with let
 push adds val at the end of the array
+
+**hi**------bold
+re creating of a variable -- redeclare  
+ assigning new val to the varialbe --- reassign
+
+> SCOPE:
+> LIFE TIME OF A VARIABLE
+
+let variable cant be worked outside of the block {}
+var can be accessed out of the block since it has lifetime
+
+undefine is the value (wen we wont assign a val we get that its )
+not defined is the error
+
+declare func --- function fun(){code }  
+func cant work out of the block
+
+parseInt converts to num------ console.log(x1 + parseInt(x2));  
+console.log(x1 + +x2);
+
+null+5-----------o/p is 5 null is converted to 0  
+[]+[]----------''  
+4 \* "5a"--------Nan (wen it cant be converted to nu it showa notanumb)  
+==------compare (check for the value) converstion occurs  
+===------(checks directly no convertion)
+=== works faster than ==
+
+#types of functions  
+normal function  
+arrow function
+
+function can be exit 2 way that is by calling return and
+
+> arrow function  
+>  const double =(n)=>n\*2; // can be declare wen its in single line
+
+#why to use functions?  
+DRY--DONT REPEAT YOURSELF is a thumb rule.  
+no repeations,reuseability,error identify,readability ,modular---divide into chunks  
+code quality:5 pillars ---
+
+- readability-75%
+- maintainability-code dept
+- extensibility
+- testability
+
+- performance

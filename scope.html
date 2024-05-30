@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+  </head>
+  <body>
+    <script src="func.js">
+      ///1
+      function fun() {
+        var t = 20;
+        let g = 30;
+        console.log(t);
+        console.log(g);
+      }
+      ///2
+      fun();
+
+      {
+        var x1 = 10;
+        let x2 = 60;
+        console.log(x2);
+      }
+
+      console.log(x1);
+      //3
+
+      function fun(age) {
+        if (age > 18) {
+          var msg = "eligible";
+        } else {
+          var msg = "not eligible";
+        }
+        console.log("you r " + msg);
+      }
+      fun(20);
+
+      function fun2(age) {
+        if (age > 18) {
+          let msg = "eligible";
+        } else {
+          let msg = "not eligible";
+        }
+        console.log("you r " + msg); //(doesnt execute if we declare let)bz it is mention out of the if blocks it can woek out of the block wether its inside the func block)
+      }
+      fun(2);
+      //4
+      var x1 = 3;
+      var x2 = "5";
+      console.log(x1 + x2); //concatinates 3 is converted to string and concatination occur
+      console.log(x1 - x2); //substraction happens bz - is preffered to mathematical so it converts string to num and does operation
+      console.log(typeof x1);
+      console.log(typeof x2);
+      //5
+
+      var g1 = 5;
+      var g2 = "5";
+      console.log(g1 == g2);
+      console.log(g1 === g2);
+      //6
+      //function declaration or definition
+      //n--parameter 10-argument
+      // function body
+      function double(n) {
+        return n * 2; // return is mandatory or else its output is undefined
+      }
+      //function call
+      console.log(double(10));
+
+      function double1(n) {
+        console.log("hi");
+        return 5; // return is mandatory or else its output is undefined
+        console.log("hi");
+        console.log("hi");
+        console.log("hi");
+        console.log("hi");
+      }
+      double1(9);
+      double1(1);
+
+      ///arrow func
+      const double =(n)=>{
+        return n*2;
+      }
+    </script>
+  </body>
+</html>
