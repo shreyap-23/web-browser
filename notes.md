@@ -68,6 +68,8 @@ push adds val at the end of the array
 re creating of a variable -- redeclare  
  assigning new val to the varialbe --- reassign
 
+ >camleCase--- rules to write down the variables ie highRatedBooks()
+
 > SCOPE:
 > LIFE TIME OF A VARIABLE
 
@@ -104,9 +106,38 @@ DRY--DONT REPEAT YOURSELF is a thumb rule.
 no repeations,reuseability,error identify,readability ,modular---divide into chunks  
 code quality:5 pillars ---
 
-- readability-75%
+- readability-75% 
 - maintainability-code dept
 - extensibility
 - testability
-
 - performance
+
+copy by reference -------- copy of adress  
+copy of value ------[....x1]; spread on values  
+
+different types of FOR LOOPS:  
+ - for loop
+- for in 
+- for of 
+
+>> AGILE: Stake holders- they are the one responsible for make of the prj . they will bw pull if anything goes wrong
+
+>>SDLC  
+ - ANALYSIS
+ - DESIGN
+ - DEVELOPMENT
+ - TESTING
+ - DEPLOYMENT
+ - MAINTENANCE  
+
+![ sdlc](image.png)
+
+waterfall---migration prjs
+agile------  
+scrum--implementation of agile  
+![scrum](scrum.png)
+story points: no of days assigned to complete the task , they will be in fibonocci series  
+sprint planning -- will be planned in 1 hr  
+
+burn down chart--- states the progress of the employee, that is wether he is working or not,or completeing the work at end  
+### tool to manage the scrum---kanban board    
